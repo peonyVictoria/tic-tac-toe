@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TIC-TAC-TOE</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<section>
+			<h1>Крестики-нолики</h1>
+			<div class="user_choice">
+				<img src="img/cross.jpg" alt="Крестик" id="choice_cross" onclick="start_game_cross()">
+				<img src="img/zero.jpg" alt="Нолик" id="choice_zero" onclick="start_game_zero()">
+			</div>
+			<table id="field_game">
+				<tr>
+					<td class="cell col-left" id="cell1">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+					<td class="cell col-center" id="cell2">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+					<td class="cell col-right"id="cell3">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+				</tr>
+				<tr>
+					<td class="cell col-left" id="cell4">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+					<td class="cell col-center" id="cell5">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+					<td class="cell col-right" id="cell6">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+				</tr>
+				<tr>
+					<td class="cell col-left" id="cell7">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+					<td class="cell col-center" id="cell8">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+					<td class="cell col-right" id="cell9">
+						<img src="img/cell_background.png" alt="cell_background">
+					</td>
+				</tr>
+			</table>
+		</section>
+	</main>
+	
+	<script src="js/main.js"></script>
+
+</body>
+</html>
